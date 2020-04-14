@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+    <email>bob@placeholder.23332.edu</email>
+    <first-name>Bob</first-name>
+    <last-name>Bobbington</last-name>
+        <guid>YDAASDFGHJKLNRHPJ3Q6</guid>
+        <uber-license>false</uber-license>
+    <reference>bob01_4567</reference>
+    <sso-only>true</sso-only>
+    <require-deactivate>false</require-deactivate>
+    <require-book-list-update>false</require-book-list-update>
+    <store-url>http://someurl.somestore.com</store-url>
+    <timestamp>20150311153046</timestamp>
+    <max-desktop-activations>2</max-desktop-activations>
+    <max-mobile-activations>2</max-mobile-activations>
+    <email-locked>false</email-locked>
+</user>
