@@ -1,0 +1,62 @@
+{
+    "name": "generalsystemsvehicle/full-refund",
+    "description": "VitalSource API PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Wells",
+            "email": "wells@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "illuminate/support": "^6.11 || ^7.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "nunomaduro/collision": "^4.1",
+        "nunomaduro/larastan": "^0.5.5",
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.5",
+        "rregeer/phpunit-coverage-check": "^0.3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeneralSystemsVehicle\\VitalSource\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeneralSystemsVehicle\\VitalSource\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp -Rfp .githooks/. .git/hooks/; chmod +x .git/hooks/*"
+        ],
+        "test": [
+            "phpunit --coverage-clover .phpunit/clover.xml --coverage-html .phpunit/coverage --coverage-text",
+            "coverage-check .phpunit/clover.xml 95",
+            "phpstan analyse --level=max"
+        ],
+        "phpunit": "phpunit",
+        "coverage": [
+            "phpunit --coverage-clover .phpunit/clover.xml --coverage-html .phpunit/coverage --coverage-text",
+            "coverage-check .phpunit/clover.xml 95"
+        ],
+        "phpstan": "phpstan analyse --level=max"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GeneralSystemsVehicle\\VitalSource\\VitalSourceServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
