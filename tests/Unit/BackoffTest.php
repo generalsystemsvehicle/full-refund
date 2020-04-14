@@ -15,9 +15,6 @@ use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 
-/**
- * @author Guillaume Cavana <guillaume.cavana@gmail.com>
- */
 class BackoffTest extends TestCase
 {
     /** @test */
