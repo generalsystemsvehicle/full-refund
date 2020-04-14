@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog items="1" total-pages="1" page="0" per-page="1000" status="complete">
+  <item>
+    <sku>BOOKSHELF-TUTORIAL</sku>
+    <vbid>BOOKSHELF-TUTORIAL</vbid>
+    <created>Mon, 04 Aug 2014 13:37:55 +0000</created>
+    <updated>Fri, 19 Oct 2018 20:56:37 +0000</updated>
+    <off-sale-date/>
+    <type>Single</type>
+    <downloadable-duration>perpetual</downloadable-duration>
+    <online-duration>365 days</online-duration>
+    <book-format>ePub</book-format>
+    <build-status>In Inventory</build-status>
+    <url>https://www.vitalsource.com/textbooks?term=BOOKSHELFTUTORIAL</url>
+    <description/>
+    <publication-date/>
+    <author>VSM</author>
+    <title>Bookshelf Tutorial</title>
+    <sort-title>Bookshelf Tutorial</sort-title>
+    <edition>0</edition>
+    <icon-url>https://covers.vitalbook.com/vbid/BOOKSHELF-TUTORIAL/width/120</icon-url>
+    <sampleable>true</sampleable>
+    <page-count>0</page-count>
+    <copyright-date/>
+    <copyright-year/>
+    <aliases>
+        <eisbn-canonical/>
+        <isbn-canonical>BOOKSHELFTUTORIAL</isbn-canonical>
+        <print-isbn-canonical/>
+        <fpid/>
+        <isbn13/>
+        <isbn10/>
+        <additional-isbns>
+            <isbn type="e-isbn-10">0123456789</isbn>
+        </additional-isbns>
+    </aliases>
+    <pricelist>
+        <publisher-list-price>0.00</publisher-list-price>
+        <agency-price/>
+        <digital-list-price>0.00</digital-list-price>
+        <sell-price/>
+    </pricelist>
+    <publisher>
+        <publisher-name>VitalSource Technologies</publisher-name>
+        <imprint-name>VCS Internal &amp; Sales</imprint-name>
+    </publisher>
+  </item>
+</catalog>
