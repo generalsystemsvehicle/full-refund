@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code>
+    <id>THECODEYOUSENTWILLBEHERE</id>
+    <product-name>Bookshelf Tutorial</product-name>
+    <product-sku>BOOKSHELF-TUTORIAL</product-sku>
+    <product-eisbn/>
+    <creation-details>(Code created by THENAMEOFYOUR_VST_SYSTEM_USER on 2019-05-22 19:29:06 UTC)</creation-details>
+    <creation-user>THENAMEOFYOUR_VST_SYSTEM_USER</creation-user>
+    <creation-login>THENAMEOFYOUR_VST_SYSTEM_USER</creation-login>
+    <intended-use>code-api</intended-use>
+    <deactivation-details></deactivation-details>
+    <user-name>The_name_you_passed</user-name>
+    <user-email>user@email.com</user-email>
+    <download-license-details>Expires 180 days after registration</download-license-details>
+    <online-license-details>Expires 180 days after registration</online-license-details>
+    <refundable>false</refundable>
+    <refundable_reason_code>469</refundable_reason_code>
+    <refundable_reason_text>The Redemption Code is already cancelled and is not eligible for a return.</refundable_reason_text>
+    <tags>
+    <tag>postman_created_code</tag>
+    </tags>
+</code>
