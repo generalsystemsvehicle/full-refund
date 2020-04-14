@@ -1,0 +1,64 @@
+{
+    "num_items": 867204,
+    "page": 123,
+    "per_page": 1000,
+    "total_pages": 868,
+    "items": [
+        {
+            "vbid": "L-999-70030",
+            "kind": "ePub",
+            "identifiers": {
+                "print_isbn_canonical": "L99970030",
+                "eisbn_canonical": null
+            },
+            "title": "Fall of the House of Usher",
+            "format": "Page Fidelity",
+            "publisher": "Distributor Company",
+            "edition": 0,
+            "contributors": [
+                {
+                    "name": "Edgar Allan Poe",
+                    "type": null
+                }
+            ],
+            "language": null,
+            "created": "2006-03-04T06:20:36Z",
+            "off_sale_date": null,
+            "print_restrictions": -1,
+            "copy_restrictions": -1,
+            "resource_links": {
+                "metadata": "https://api.vitalsource.com/v4/products/L99970030",
+                "cover_image": "https://covers.vitalbook.com/vbid/L-999-70030/width/480",
+                "table_of_contents": "https://api.vitalsource.com/v4/products/L99970030/toc",
+                "store_url": "https://vitalsource.com/textbooks?term=L99970030"
+            },
+            "related_products": {
+                "previous_edition": null,
+                "new_edition": null,
+                "ancillary": null
+            },
+            "sales_rights": [],
+            "exclude_sales_rights": [],
+            "variants": [
+                {
+                    "duration": "perpetual",
+                    "online_duration": "365",
+                    "sku": "L-999-70030",
+                    "type": "Single",
+                    "distributable": true,
+                    "prices": [
+                        {
+                            "type": "digital-list-price",
+                            "value": "0.99",
+                            "currency": "USD",
+                            "discount_code": null,
+                            "territory": null
+                        }
+                    ],
+                    "updated": "2016-12-08T17:17:35Z"
+                }
+            ],
+            "contents": []
+        }
+    ]
+}
