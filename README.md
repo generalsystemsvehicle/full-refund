@@ -4,6 +4,10 @@
 [![Coverage Status](https://github.com/generalsystemsvehicle/full-refund/workflows/coverage/badge.svg)](https://github.com/generalsystemsvehicle/full-refund/actions?query=workflow%3Acoverage)
 [![PHPStan Status](https://github.com/generalsystemsvehicle/full-refund/workflows/phpstan/badge.svg)](https://github.com/generalsystemsvehicle/full-refund/actions?query=workflow%3Aphpstan)
 
+[![Latest Stable Version](https://poser.pugx.org/generalsystemsvehicle/full-refund/v/stable.svg)](https://packagist.org/packages/generalsystemsvehicle/full-refund)
+[![Total Downloads](https://poser.pugx.org/generalsystemsvehicle/full-refund/d/total.svg)](https://packagist.org/packages/generalsystemsvehicle/full-refund)
+[![License](https://poser.pugx.org/generalsystemsvehicle/full-refund/license.svg)](https://packagist.org/packages/generalsystemsvehicle/full-refund)
+
 This package allows one to communicate with the VitalSource API in order to perform actions, such as generating a license code for an eBook, redeeming a license, and performing SSO into the VitalSource web application.
 
 ## Installation
