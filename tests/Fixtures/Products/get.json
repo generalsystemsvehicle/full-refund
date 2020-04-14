@@ -1,0 +1,56 @@
+{
+    "vbid": "L-999-70031",
+    "kind": "great book",
+    "identifiers": {
+        "print_isbn_canonical": "null",
+        "eisbn_canonical": null
+    },
+    "title": "Fantastic Fables",
+    "format": "ePub",
+    "publisher": "Hayes Barton Press",
+    "edition": 0,
+    "contributors": [
+        {
+            "name": "Ambrose Bierce",
+            "type": null
+        }
+    ],
+    "language": null,
+    "created": "2006-03-04T06:20:36Z",
+    "off_sale_date": null,
+    "print_restrictions": -1,
+    "copy_restrictions": -1,
+    "resource_links": {
+        "metadata": "https://api.vitalsource.com/v4/products/L99970031",
+        "cover_image": "https://covers.vitalbook.com/vbid/L-999-70031/width/480",
+        "table_of_contents": "https://api.vitalsource.com/v4/products/L99970031/toc",
+        "store_url": "https://vitalsource.com/textbooks?term=L99970031"
+    },
+    "related_products": {
+        "previous_edition": null,
+        "new_edition": null,
+        "ancillary": null
+    },
+    "sales_rights": [],
+    "exclude_sales_rights": [],
+    "variants": [
+        {
+            "duration": "perpetual",
+            "online_duration": "365",
+            "sku": "L-999-70030",
+            "type": "Single",
+            "distributable": true,
+            "prices": [
+                {
+                    "type": "digital-list-price",
+                    "value": "5.00",
+                    "currency": "USD",
+                    "discount_code": null,
+                    "territory": null
+                }
+            ],
+            "updated": "2019-01-01T17:17:35Z"
+        }
+    ],
+    "contents": []
+}
