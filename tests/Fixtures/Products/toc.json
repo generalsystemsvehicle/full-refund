@@ -1,0 +1,31 @@
+{
+    "table_of_contents": [
+        {
+            "title": "181 ORIGINAL FABLES",
+            "path": "/OPS/loc_001.xhtml",
+            "level": 1,
+            "cfi": "/6/4[idloc_001.xhtml-itemref]",
+            "kind": "document_container",
+            "page": "",
+            "data": []
+        },
+        {
+            "title": "The Moral Principle and the Material Interest",
+            "path": "/OPS/loc_002.xhtml",
+            "level": 2,
+            "cfi": "/6/6[idloc_002.xhtml-itemref]",
+            "kind": "document",
+            "page": "",
+            "data": []
+        },
+        {
+            "title": "The Crimson Candle",
+            "path": "/OPS/loc_003.xhtml",
+            "level": 2,
+            "cfi": "/6/8[idloc_003.xhtml-itemref]",
+            "kind": "document",
+            "page": "",
+            "data": []
+        }
+    ]
+}
