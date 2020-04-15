@@ -59,10 +59,6 @@ class VitalSourceServiceProvider extends ServiceProvider
             __DIR__.'/../config/config.php', 'vitalsource'
         );
 
-        if (! $this->app->runningInConsole()) {
-            return;
-        }
-
         $this->publishes([
             __DIR__.'/../config/config.php' => config_path('vitalsource.php'),
         ], 'vitalsource');
@@ -75,10 +71,6 @@ class VitalSourceServiceProvider extends ServiceProvider
      */
     protected function registerServices()
     {
-        if (! property_exists($this, 'serviceBindings')) {
-            return;
-        }
-
         foreach ($this->serviceBindings as $key => $value) {
             is_numeric($key)
                     ? $this->app->singleton($value)
