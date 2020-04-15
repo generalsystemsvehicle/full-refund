@@ -37,13 +37,13 @@
         ],
         "test": [
             "phpunit --coverage-clover .phpunit/clover.xml --coverage-html .phpunit/coverage --coverage-text",
-            "coverage-check .phpunit/clover.xml 95",
+            "coverage-check .phpunit/clover.xml 100",
             "phpstan analyse --level=max"
         ],
         "phpunit": "phpunit",
         "coverage": [
             "phpunit --coverage-clover .phpunit/clover.xml --coverage-html .phpunit/coverage --coverage-text",
-            "coverage-check .phpunit/clover.xml 95"
+            "coverage-check .phpunit/clover.xml 100"
         ],
         "phpstan": "phpstan analyse --level=max"
     },
