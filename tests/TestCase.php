@@ -73,19 +73,39 @@ abstract class TestCase extends OrchestraTestCase
     /**
      * Call protected/private method of a class.
      *
-     * @param object &$object    Instantiated object that we will run method on.
-     * @param string $methodName Method name to call
-     * @param array  $parameters Array of parameters to pass into method.
+     * @param object &$object
+     * @param string $methodName
+     * @param array  $parameters
      *
      * @return mixed Method return.
      */
-    public function invokeMethod(&$object, $methodName, array $parameters = array())
+    public function invokeMethod(&$object, $methodName, array $parameters = [])
     {
         $reflection = new ReflectionClass(get_class($object));
         $method = $reflection->getMethod($methodName);
         $method->setAccessible(true);
 
         return $method->invokeArgs($object, $parameters);
+    }
+
+    /**
+     * Set protected/private property on object.
+     *
+     * @param object &$object
+     * @param string $propertyName
+     * @param mixed $value
+     *
+     * @return $this
+     */
+    public function setProperty(&$object, $propertyName, $value)
+    {
+        $reflection = new ReflectionClass(get_class($object));
+
+        $property = $reflection->getProperty($propertyName);
+        $property->setAccessible(true);
+        $property->setValue($object, $value);
+
+        return $this;
     }
 
     /**
