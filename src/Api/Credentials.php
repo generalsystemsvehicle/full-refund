@@ -3,7 +3,6 @@
 namespace GeneralSystemsVehicle\VitalSource\Api;
 
 use Illuminate\Support\Arr;
-use GuzzleHttp\Exception\RequestException;
 use GeneralSystemsVehicle\VitalSource\Guzzle\Api;
 
 class Credentials extends Api

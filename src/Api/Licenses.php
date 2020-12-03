@@ -2,9 +2,8 @@
 
 namespace GeneralSystemsVehicle\VitalSource\Api;
 
-use GeneralSystemsVehicle\VitalSource\Guzzle\Api;
-use GuzzleHttp\Exception\RequestException;
 use Illuminate\Support\Arr;
+use GeneralSystemsVehicle\VitalSource\Guzzle\Api;
 
 class Licenses extends Api
 {

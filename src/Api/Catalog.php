@@ -2,9 +2,7 @@
 
 namespace GeneralSystemsVehicle\VitalSource\Api;
 
-use GuzzleHttp\Client;
 use Illuminate\Support\Arr;
-use GuzzleHttp\Exception\RequestException;
 use GeneralSystemsVehicle\VitalSource\Guzzle\Api;
 
 class Catalog extends Api
