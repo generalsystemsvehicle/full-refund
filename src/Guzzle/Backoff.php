@@ -4,7 +4,7 @@ namespace GeneralSystemsVehicle\VitalSource\Guzzle;
 
 use Carbon\Carbon;
 use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 
@@ -22,7 +22,7 @@ class Backoff
      */
     public static function decider()
     {
-        return function ($retries, Request $request, Response $response = null, RequestException $exception = null) {
+        return function ($retries, Request $request, Response $response = null, TransferException $exception = null) {
             // Limit the number of retries to 5
             if ($retries >= 5) {
                 return false;
